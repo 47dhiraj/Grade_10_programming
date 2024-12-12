@@ -1,0 +1,32 @@
+'NEPAL
+'NEPA
+'NEP
+'NE
+'N
+
+DECLARE SUB PATTERN (S$)
+
+CLS
+
+S$ = "NEPAL"
+
+CALL PATTERN(S$)
+END
+
+
+SUB PATTERN (S$)
+
+    FOR I = LEN(S$) TO 1 STEP -1
+
+        PRINT LEFT$(S$, I)
+
+    NEXT I
+
+
+    'PRINT LEFT$(S$, 5)
+    'PRINT LEFT$(S$, 4)
+    'PRINT LEFT$(S$, 3)
+    'PRINT LEFT$(S$, 2)
+    'PRINT LEFT$(S$, 1)
+
+END SUB

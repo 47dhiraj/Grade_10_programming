@@ -1,0 +1,14 @@
+CLS
+
+PRINT INT(9)
+
+PRINT INT(9.4)
+
+PRINT INT(9.6)
+
+PRINT INT(9.9)
+
+PRINT INT(-9.1)
+
+END
+

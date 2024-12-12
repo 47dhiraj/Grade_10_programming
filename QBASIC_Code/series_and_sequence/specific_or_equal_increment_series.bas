@@ -1,0 +1,23 @@
+REM  EQUAL INCREMENT SERIES
+
+
+DECLARE SUB SERIES ( )
+
+CLS
+CALL SERIES
+END
+
+SUB SERIES ()
+
+    A = 1
+
+    FOR I = 1 TO 10
+
+        PRINT A;
+
+        A = A + 2
+
+    NEXT I
+
+END SUB
+

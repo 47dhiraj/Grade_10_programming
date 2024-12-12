@@ -1,0 +1,26 @@
+'N
+'E
+'P
+'A
+'L
+
+DECLARE SUB PATTERN (S$)
+
+CLS
+
+S$ = "NEPAL"
+
+CALL PATTERN(S$)
+
+END
+
+
+SUB PATTERN (S$)
+
+    FOR I = 1 TO LEN(S$)
+
+        PRINT MID$(S$, I, 1)
+
+    NEXT I
+
+END SUB

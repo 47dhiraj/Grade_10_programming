@@ -1,0 +1,23 @@
+REM  INTEGER DIVISION
+
+
+DECLARE SUB SERIES ( )
+
+CLS
+CALL SERIES
+END
+
+SUB SERIES ()
+
+    A = 55555
+
+    FOR I = 1 TO 5
+
+        PRINT A;
+
+        A = A \ 10
+
+    NEXT I
+
+END SUB
+

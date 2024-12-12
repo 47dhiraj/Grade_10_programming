@@ -1,0 +1,12 @@
+CLS
+
+S$ = "UNITED"
+
+FOR I = 1 TO LEN(S$)
+
+    PRINT LEFT$(S$, I)
+
+NEXT I
+
+END
+

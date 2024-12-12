@@ -1,0 +1,10 @@
+CLS
+
+PRINT CINT(9)
+
+PRINT CINT(9.4)
+
+PRINT CINT(9.6)
+
+END
+
