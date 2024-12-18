@@ -1,0 +1,28 @@
+
+# To setup virtual env for python in windows:
+
+
+    First of All open Windows PowerShell in Administrator mode:
+
+        The following virtualenv is just installed once, only if not installed:
+            only for first time (yedi windows mai pahilo choti virtualenv haleko ho vani)
+
+            ==> pip install virtualenv 			
+
+
+    Now, u can also do all the following commands in Command prompt(CMD)
+
+
+    Now, to create any virtual env folder:
+
+        ==> virtualenv virtual_env_folder
+        eg: virtualenv python_env
+
+
+    Now, activate the above created virtual env:
+        ==> virtual_env_folder\Scripts\activate
+        eg: python_env\Scripts\activate
+    
+
+
+Wallah!
