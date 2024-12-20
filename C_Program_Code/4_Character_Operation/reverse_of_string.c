@@ -13,8 +13,6 @@ int main(){
 	
 	printf("\nReverse is: %s \n", strrev(a));
 	
-	
 	getch();
-	
 	return 0;
 }

@@ -3,7 +3,7 @@
 #include <stdio.h>
 #include <string.h>			// to use strcpy() 
 
-void main()
+int main()
 {
 	int compare;
 	char a[100], b[100];
@@ -23,13 +23,18 @@ void main()
 	
 	// Comparing string a & b
 	compare = strcmp(a, b);
-//	printf("Comparison = %d", compare);
+
 
 	if (compare == 0)
+	{
 		printf("\n The string %s is palindrome. \n", b);
+	}
 	else
+	{
 		printf("\n The string %s is not palindrome. \n", b);
+	}
 		
-	
+		
 	getch();
+	return 0;
 }

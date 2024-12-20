@@ -15,12 +15,12 @@ int main()
 	gets(name);
 	
 	
-	// // It is used to read single word input(i.e won't hold characters/alphabets after space)
-	//	scanf("%s", name);
+	// // Alternative: It is used to read single word input(i.e won't hold characters/alphabets after space)
+//	scanf("%s", name);
 	
 	
+	printf("\n%s\n", name);
 	
-	//	printf("\n%s\n", name);
-	
+	getch();
 	return 0;
 }
