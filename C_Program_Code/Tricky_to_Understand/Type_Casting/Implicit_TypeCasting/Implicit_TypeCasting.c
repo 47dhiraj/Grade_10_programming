@@ -1,6 +1,9 @@
-// In implicit type casting, the compiler automatically converts a smaller ranked data type to a larger ranked data type.
+// In implicit type casting, the compiler automatically converts a smaller ranked data type to a larger ranked data type & vice-versa.
 
 // int ==> float ==> double
+// double ==> float ==> int
+
+// NOTE: Explicit type casting is always better/safter than implicit type casting.
 
 #include <stdio.h>
 
