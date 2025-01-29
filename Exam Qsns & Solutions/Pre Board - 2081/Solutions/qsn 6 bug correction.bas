@@ -1,0 +1,21 @@
+CLS
+
+OPEN "marks.dat" FOR INPUT AS #1
+
+
+WHILE NOT EOF(1)
+
+    INPUT #1, N$, ENG, NEP, SCI
+
+    IF ENG > 35 THEN
+
+        PRINT N$, ENG, NEP, SCI
+
+    END IF
+
+WEND
+
+CLOSE #1
+
+END
+

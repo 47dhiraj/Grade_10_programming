@@ -1,0 +1,27 @@
+DECLARE FUNCTION GRADE(A)
+
+
+CLS
+
+INPUT "ENTER A NUMBER"; B
+
+C = GRADE(B)
+
+PRINT C
+
+END
+
+
+FUNCTION GRADE (X)
+
+    WHILE X <> 0
+
+        R = X MOD 10
+
+        Z = Z + R
+
+        X = INT(X / 10)
+
+    WEND
+
+END FUNCTION
