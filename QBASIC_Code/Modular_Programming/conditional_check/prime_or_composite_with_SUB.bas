@@ -1,15 +1,17 @@
-DECLARE SUB CHECK_PRIME (N)
+DECLARE SUB CHECKPRIME (N)
 
 CLS
 
-INPUT "Enter any number: "; Num
+INPUT "Enter any number: "; N
 
-CALL CHECK_PRIME(Num)
+CALL CHECKPRIME(N)
 
 END
 
 
-SUB CHECK_PRIME (N)
+SUB CHECKPRIME (N)
+
+    C = 0
 
     FOR I = 1 TO N
 
@@ -19,9 +21,13 @@ SUB CHECK_PRIME (N)
 
 
     IF C = 2 THEN
+
         PRINT "Prime number"
+
     ELSE
+
         PRINT "Composite number"
+
     END IF
 
 END SUB
