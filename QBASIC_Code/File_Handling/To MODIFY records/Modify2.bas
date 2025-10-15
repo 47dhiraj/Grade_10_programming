@@ -1,11 +1,14 @@
 REM WAP to increase the marks of math subject of each students by 15 in student.dat file.
 
+
 CLS
 
 OPEN "student.dat" FOR INPUT AS #1
+
 OPEN "temp.dat" FOR OUTPUT AS #2
 
-DO
+
+DO WHILE NOT EOF(1)
 
     INPUT #1, name$, rollno, math, science, english, computer
 
@@ -13,15 +16,16 @@ DO
 
     WRITE #2, name$, rollno, math, science, english, computer
 
-LOOP WHILE NOT EOF(1)
+LOOP
 
-PRINT "Modification of math marks successfully done!"
 
 CLOSE #1, #2
 
 KILL "student.dat"
 
 NAME "temp.dat" AS "student.dat"
+
+PRINT "Modification of math marks successfully done!"
 
 END
 

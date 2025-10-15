@@ -1,4 +1,8 @@
+REM ...
+
+
 OPEN "student.dat" FOR INPUT AS #1
+
 OPEN "temp.dat" FOR OUTPUT AS #2
 
 CLS
